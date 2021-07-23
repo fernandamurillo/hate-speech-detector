@@ -1,0 +1,332 @@
+(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ [K(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ python3 main.py
+/projects/6a28c0ef-9be2-4242-a39a-823ee33a05e3/miniconda3/lib/python3.8/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Try to open
+
+    https://cocalc8.ai-camp.org/6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12335/ (Press CTRL+C to quit)
+ * Restarting with stat
+/projects/6a28c0ef-9be2-4242-a39a-823ee33a05e3/miniconda3/lib/python3.8/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Try to open
+
+    https://cocalc8.ai-camp.org/6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/
+
+
+ * Debugger is active!
+ * Debugger PIN: 256-544-770
+127.0.0.1 - - [23/Jul/2021 21:07:54] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:55] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:07:59] "[33mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/519433 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Jul/2021 21:08:10] "[33mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/519433 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Jul/2021 21:09:51] "[33mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/519433 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Jul/2021 21:10:17] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:10:18] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+^C(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ python3 main.py
+/projects/6a28c0ef-9be2-4242-a39a-823ee33a05e3/miniconda3/lib/python3.8/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Try to open
+
+    https://cocalc8.ai-camp.org/6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12335/ (Press CTRL+C to quit)
+ * Restarting with stat
+/projects/6a28c0ef-9be2-4242-a39a-823ee33a05e3/miniconda3/lib/python3.8/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Try to open
+
+    https://cocalc8.ai-camp.org/6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/
+
+
+ * Debugger is active!
+ * Debugger PIN: 256-544-770
+127.0.0.1 - - [23/Jul/2021 21:12:20] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:12:20] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:17:35] "[33mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Jul/2021 21:20:35] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:20:35] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:35] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:35] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:35] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:35] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:35] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:35] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:36] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:36] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:36] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:36] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:36] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:36] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:36] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:36] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:20:40] "[33mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Jul/2021 21:20:53] "[33mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:34] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:35] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:21:35] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+^C(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ python3 main.py
+/projects/6a28c0ef-9be2-4242-a39a-823ee33a05e3/miniconda3/lib/python3.8/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Try to open
+
+    https://cocalc8.ai-camp.org/6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12335/ (Press CTRL+C to quit)
+ * Restarting with stat
+/projects/6a28c0ef-9be2-4242-a39a-823ee33a05e3/miniconda3/lib/python3.8/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Try to open
+
+    https://cocalc8.ai-camp.org/6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/
+
+
+ * Debugger is active!
+ * Debugger PIN: 256-544-770
+127.0.0.1 - - [23/Jul/2021 21:22:00] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:22:00] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:00] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:00] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:00] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:00] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:00] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:00] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:01] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:01] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:01] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:01] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:01] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:01] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:01] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:22:01] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+^C(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ python3 main.py
+/projects/6a28c0ef-9be2-4242-a39a-823ee33a05e3/miniconda3/lib/python3.8/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Try to open
+
+    https://cocalc8.ai-camp.org/6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12335/ (Press CTRL+C to quit)
+ * Restarting with stat
+/projects/6a28c0ef-9be2-4242-a39a-823ee33a05e3/miniconda3/lib/python3.8/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Try to open
+
+    https://cocalc8.ai-camp.org/6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/
+
+
+ * Debugger is active!
+ * Debugger PIN: 256-544-770
+127.0.0.1 - - [23/Jul/2021 21:23:28] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:23:28] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:28] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:28] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:28] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:28] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:28] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:28] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+^C(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ python3 main.py
+/projects/6a28c0ef-9be2-4242-a39a-823ee33a05e3/miniconda3/lib/python3.8/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Try to open
+
+    https://cocalc8.ai-camp.org/6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12335/ (Press CTRL+C to quit)
+ * Restarting with stat
+/projects/6a28c0ef-9be2-4242-a39a-823ee33a05e3/miniconda3/lib/python3.8/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Try to open
+
+    https://cocalc8.ai-camp.org/6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/
+
+
+ * Debugger is active!
+ * Debugger PIN: 256-544-770
+127.0.0.1 - - [23/Jul/2021 21:23:44] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:23:44] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:44] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:44] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:44] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:44] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:44] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:44] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:45] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:45] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:45] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:45] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:45] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:45] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:45] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:23:45] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:28] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:41:29] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:33] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:42:41] "[33mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Jul/2021 21:44:41] "[33mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Jul/2021 21:46:06] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:46:06] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:06] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:06] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:06] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:06] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:06] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:06] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:07] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:07] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:07] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:07] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:07] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:07] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:07] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:07] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:54] "GET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/aicamplogo.webp HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/thumbs.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/amazon.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/asa1.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/farzaan.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/ari.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishabh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/evan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/rishik.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
+^C(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ python3 main.py[K3 main.pyip install -U flask-cors[10Python3 main.pyip install sklearn[4Python3 main.py[10Pclear[K[K[K[K[Kclear
+[H[J(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ g
