@@ -329,4 +329,31 @@ Try to open
 127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/fernanda.png HTTP/1.1[0m" 304 -
 127.0.0.1 - - [23/Jul/2021 21:46:56] "[36mGET /6a28c0ef-9be2-4242-a39a-823ee33a05e3/port/12335/static/images/nikith.jpg HTTP/1.1[0m" 304 -
 ^C(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ python3 main.py[K3 main.pyip install -U flask-cors[10Python3 main.pyip install sklearn[4Python3 main.py[10Pclear[K[K[K[K[Kclear
-[H[J(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ g
+[H[J(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ git add.[K .
+(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ git commit -m "ready for production deployment"
+[main 605c37d] ready for production deployment
+ 3 files changed, 340 insertions(+), 9 deletions(-)
+ create mode 100644 app/.main.py-0.term
+ delete mode 100644 app/weights_location
+(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ git remor[K[K[K[K[K[K[K[K[Kgit commit -m "ready for production deployment"M(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ [C[C[C[Cadd .[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.[K[K[K[Kpush
+Username for 'https://github.com': fernandamurillo
+Password for 'https://fernandamurillo@github.com': 
+Enumerating objects: 10, done.
+Counting objects:  10% (1/10)Counting objects:  20% (2/10)Counting objects:  30% (3/10)Counting objects:  40% (4/10)Counting objects:  50% (5/10)Counting objects:  60% (6/10)Counting objects:  70% (7/10)Counting objects:  80% (8/10)Counting objects:  90% (9/10)Counting objects: 100% (10/10)Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 2.41 KiB | 2.41 MiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/fernandamurillo/sentiment-detector.git
+   aa967f9..605c37d  main -> main
+(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ git remote -v
+origin	https://github.com/fernandamurillo/sentiment-detector.git (fetch)
+origin	https://github.com/fernandamurillo/sentiment-detector.git (push)
+(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ c
