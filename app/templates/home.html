@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Amazon Reviews Sentiment Analysis">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='nicepage.css') }}" media="screen">
+<link rel="stylesheet" href="{{ url_for('static', filename='Home.css') }}" media="screen">
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='nicepage.js') }}" defer=""></script>
+    <meta name="generator" content="Nicepage 3.20.5, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900">
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/aicamplogo.webp"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-palette-1-light-3"><header class="u-clearfix u-header u-palette-1-light-3 u-sticky u-header" id="sec-3ba1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
+        <h3 class="u-custom-font u-font-titillium-web u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="Down">
+          <span style="font-weight: 700;">Amazon Reviews Sentiment Analysis </span>
+        </h3>
+        <a href="https://www.ai-camp.org/" class="u-image u-image-round u-logo u-radius-38 u-image-1" data-image-width="64" data-image-height="64" title="AI Camp" target="_blank" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="500" data-animation-direction="">
+          <img src={{ url_for('static', filename='images/aicamplogo.webp')}} class="u-logo-image u-logo-image-1" data-image-width="64">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="SM">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="">
+              <svg><use xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="home.html" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/Home.html#sec-59d1" data-page-id="519434" style="padding: 10px 20px;">Overview</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/Home.html#sec-2fa8" data-page-id="519434" style="padding: 10px 20px;">Try it</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/Home.html#carousel_94dc" data-page-id="519434" style="padding: 10px 20px;">About Us</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('home') }}" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Home.html#sec-59d1" data-page-id="519434" style="padding: 10px 20px;">Overview</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Home.html#sec-2fa8" data-page-id="519434" style="padding: 10px 20px;">Try it</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Home.html#carousel_94dc" data-page-id="519434" style="padding: 10px 20px;">About Us</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <h3 class="u-headline u-text u-text-2">
+          <a href="/"></a>
+        </h3>
+      </div></header>
+    <section class="u-clearfix u-image u-section-1" id="sec-d446" data-image-width="1368" data-image-height="632">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-palette-5-dark-3 u-text-1" spellcheck="false">&nbsp; &nbsp; &nbsp; Amazon Reviews Sentiment Analysis</h1>
+        <a href="519433" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-1-light-2 u-palette-1-light-1 u-radius-50 u-btn-1" spellcheck="false">try it now!</a>
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-2" id="sec-59d1">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-palette-5-dark-3 u-text-1" spellcheck="false">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Overview<br>
+          <br>
+          <br>
+          <span style="font-size: 1.875rem;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; What the product is and how it works</span>
+        </h2>
+        <img class="u-image u-image-default u-image-1" src="{{ url_for('static', filename="images/thumbs.png")}}" alt="" data-image-width="290" data-image-height="174">
+        <p class="u-custom-font u-font-arial u-text u-text-2" spellcheck="false"><b>We created an AI that based on specific words it detects in the written review, can provide a sentiment. There are two categories: positive and negative. The AI will detect certain words that have a negative connotation a<span style="font-weight: 400;"></span>nd words that have a positive connotation. Based on how much positive or negative is in the review, the AI will assign it to one of the two categories.</b>
+        </p>
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-3" id="carousel_903d">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-palette-5-dark-3 u-text-1" spellcheck="false">
+          <span style="font-size: 1.875rem;">Why this product?</span>
+          <br>
+        </h2>
+        <img class="u-image u-image-default u-image-1" src="{{ url_for('static', filename="images/amazon.jpg") }}" alt="" data-image-width="299" data-image-height="168">
+        <p class="u-custom-font u-font-arial u-text u-text-2" spellcheck="false"><b></b><b>We created this AI to make it easier for people who use online shopping to find the general message and emotion of a specific review. This could be particularly useful if a review is too long to read. As online shopping is slowly becoming the entire future of shopping, our AI will become more prominent.</b>
+        </p>
+      </div>
+    </section>
+    
+            <section class="u-align-center u-clearfix u-grey-5 u-section-2" id="sec-ecec">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-1">Try our app here</h1>
+        <div class="u-form u-form-1">
+          
+              <!----------------- Code Starts Here-------------------------->
+
+	  <div class="container">
+        <div>
+          <div class = "input-group">
+<form action="{{url_for('results')}}" method="post" enctype="multipart/form-data"> 
+             <input name = "Review" class = "form-control" placeholder = "Enter your text here..." style="width: 600px; height:100px" >
+<br><br>
+      <input type="submit"> </form>
+</div></div>
+        <br>
+
+  
+        <div class="col-md-3">
+          <h3>Result:</h3>
+          <div class="alert alert-primary" role="alert">
+              {{ prediction_text }}
+          </div>
+        </div>
+            </div>
+
+ 
+      <!-------------Detection Code Ends------------------------->
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+<!--     <section class="u-clearfix u-image u-shading u-section-4" src="" data-image-width="1000" data-image-height="667" id="sec-2fa8">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-palette-5-dark-3 u-text-1" spellcheck="false">TRY IT NOW</h2>
+        <div class="u-form u-form-1">
+          <grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none;" class="cGcvT"></grammarly-extension>
+          <grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none;" class="cGcvT"></grammarly-extension>
+          <grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none;" class="cGcvT"></grammarly-extension>
+          <grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none;" class="cGcvT"></grammarly-extension> -->
+<!--           <form action="{{url_for('results')}}" method="POST" class="u-clearfix u-form-spacing-13 u-form-vertical u-inner-form" name="form-1" style="padding: 0px;">
+            <input name = "Review" class = "form-control" placeholder = "Enter your text here..." style="width: 600px; height:100px" >
+            
+            
+            <div class="u-align-center u-form-group u-form-submit">
+              <a href="#" class="u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-dark-1 u-palette-1-light-1 u-radius-50 u-btn-1">Analyze sentiment<br>
+              </a>
+              <input type="submit" value="submit" class="u-form-control-hidden">
+                      <div> -->
+<!--              <form action="{{url_for('results')}}" method="POST" enctype="multipart/form-data"> 
+      
+      
+             <input name = "Review" class = "form-control" placeholder = "Enter your text here..." style="width: 600px; height:100px" >
+<br>
+      <br>
+      
+             <input type="submit">
+      
+      
+        </form>
+          
+          <h3>Result:</h3>
+          <div>
+              {{ prediction_text }}
+          </div>
+        </div>
+
+<!--         <!--Image -->
+<!--             <div class="col-sm-6"></div>
+                <div class="col-sm-2"></div>
+                {% if image %}
+                <img src="{{ image }}" alt="Image">
+                {% endif %}
+            </div> --> 
+        <!--Image-->
+
+<!--             <div class="u-form-send-message u-form-send-success">Analyzing the sentiment...</div>
+            <div class="u-form-send-error u-form-send-message">Unable to read your texts. Please try it again.</div> -->
+<!--             <input type="hidden" value="" name="recaptchaResponse">
+          </form>
+        </div>
+      </div>
+    </section> -->
+      
+      
+    <section class="u-align-center u-clearfix u-gradient u-section-5" id="carousel_94dc">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-palette-5-dark-3 u-text-1" spellcheck="false">About the Team</h2>
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center u-container-style u-list-item u-palette-1-light-2 u-repeater-item u-shape-rectangle u-list-item-1">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <div alt="" class="u-image u-image-circle u-image-1" data-image-width="392" data-image-height="512"></div>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-2" spellcheck="false">Web Developer</p>
+                <h3 class="u-align-center u-custom-font u-font-raleway u-text u-text-3" spellcheck="false">Ari<br>Sinyaver
+                </h3>
+                <p class="u-align-center u-text u-text-4" spellcheck="false"><b>&nbsp;I am going into my junior year of high school at International HS in SF. In my free time, I like to play soccer. In our project, I worked as a designer of our website.</b>
+                </p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-palette-1-light-2 u-repeater-item u-shape-rectangle">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <div alt="" class="u-image u-image-circle u-image-2" data-image-width="287" data-image-height="512"></div>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-5" spellcheck="false">Product Manager</p>
+                <h3 class="u-align-center u-custom-font u-font-raleway u-text u-text-6">Farzaan<br>Wadiwalla
+                </h3>
+                <p class="u-align-center u-text u-text-7" spellcheck="false"><b><b>I am a rising junior at Lincoln Highschool in Portland, Oregon. I was designated to be the Product Manager on my team and worked as one of the data scientists for my team’s AI project. In my freetime I enjoy playing soccer and piano, biking/hiking, and furthering my knowledge in computer science.&nbsp;</b>&nbsp;</b>
+                </p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-palette-1-light-2 u-repeater-item u-shape-rectangle u-list-item-3">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <div alt="" class="u-image u-image-circle u-image-3" data-image-width="384" data-image-height="512"></div>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-8" spellcheck="false">Programmer</p>
+                <h3 class="u-align-center u-custom-font u-font-raleway u-text u-text-9">Rishabh<br>Dwarakanath
+                </h3>
+                <p class="u-align-center u-text u-text-10" spellcheck="false"><b>I am a rising senior at Andover High School in Andover, Massachusetts. I worked as one of the data scientists on this AI project. In my free time I enjoy playing sports like golf and ultimate frisbee.</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-gradient u-section-6" id="carousel_c32e">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center u-container-style u-list-item u-palette-1-light-2 u-repeater-item u-shape-rectangle u-list-item-1">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <div alt="" class="u-image u-image-circle u-image-1" data-image-width="396" data-image-height="512"></div>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-1" spellcheck="false">Web Developer</p>
+                <h3 class="u-align-center u-custom-font u-font-raleway u-text u-text-2" spellcheck="false">Evan (Yudong)<br>Cao
+                </h3>
+                <p class="u-align-center u-text u-text-3" spellcheck="false"><b>I am going into my senior year of high school at MKHS in Los Angeles. I worked as part of the web development squad in which I designed the front end. In my free time, I just cook, work out and play basketball.&nbsp;</b>
+                </p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-palette-1-light-2 u-repeater-item u-shape-rectangle">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <div alt="" class="u-image u-image-circle u-image-2" data-image-width="384" data-image-height="512"></div>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-4" spellcheck="false">Programmer</p>
+                <h3 class="u-align-center u-custom-font u-font-raleway u-text u-text-5" spellcheck="false">Rishik<br>Durvasula
+                </h3>
+                <p class="u-align-center u-text u-text-6" spellcheck="false"><b><b>I am a rising junior at California High School in San Ramon. I worked as a machine learning engineer and data scientist for the back-end segment of my team’s AI project. In my free time, I enjoy playing tennis and&nbsp;basketball and spending time with family and friends.</b>&nbsp;</b>
+                </p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-palette-1-light-2 u-repeater-item u-shape-rectangle u-list-item-3">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <div alt="" class="u-image u-image-circle u-image-3" data-image-width="326" data-image-height="512"></div>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-7" spellcheck="false">Web Developer</p>
+                <h3 class="u-align-center u-custom-font u-font-raleway u-text u-text-8" spellcheck="false">Nikith<br>Gottipati
+                </h3>
+                <p class="u-align-center u-text u-text-9" spellcheck="false"><b>&nbsp;I am going into my senior year of high school at Archbishop Mitty High School in San Jose, California. In my free time, I enjoy playing basketball, reading, and spending time with my friends.</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-gradient u-section-7" id="carousel_3936">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-palette-1-light-2 u-repeater-item u-shape-rectangle">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <div alt="" class="u-image u-image-circle u-image-1" data-image-width="500" data-image-height="500"></div>
+                <p class="u-align-center u-text u-text-body-alt-color u-text-1" spellcheck="false">Mentor</p>
+                <h3 class="u-align-center u-custom-font u-font-raleway u-text u-text-2" spellcheck="false">Fernanda<br>Murillo
+                </h3>
+                <p class="u-align-center u-text u-text-3" spellcheck="false"><b>I graduated from Carnegie Mellon University with a Master’s in Biomedical Engineering and am currently a teaching assistant at AI Camp. In my free time I enjoy playing volleyball, going to the beach and hiking!</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <style class="u-overlap-style">.u-overlap:not(.u-sticky-scroll) .u-header {
+}</style>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-white u-footer" id="sec-e7f1"><div class="u-align-left u-clearfix u-sheet u-sheet-1">
+        <p class="u-custom-font u-font-titillium-web u-text u-text-default u-text-1" spellcheck="false">&nbsp;&nbsp;</p>
+        <h1 class="u-text u-text-2" spellcheck="false">Learn A.I. in 3 weeks with Zero Coding Experience.<br>
+          <br>
+          <span style="font-size: 2.25rem;">
+            <font color="#478ac9"><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</b>
+            </font>&nbsp; &nbsp;
+          </span>
+          <br>
+        </h1>
+        <a href="https://www.ai-camp.org/" class="u-border-1 u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-none u-text-palette-1-base u-btn-1" target="_blank">A.I. Camp</a>
+        <p class="u-text u-text-3" spellcheck="false"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; teaches middle and high school students machine learning and career frameworks through real-life experience.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Prepare for your major and career by joining us!&nbsp;</p>
+        <a href="https://www.ai-camp.org/" class="u-border-0 u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2" spellcheck="false" target="_blank">Join A.I. Camp</a>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="https://nicepage.com/" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  </body>
+</html>
