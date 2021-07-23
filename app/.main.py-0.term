@@ -356,4 +356,20 @@ To https://github.com/fernandamurillo/sentiment-detector.git
 (base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ git remote -v
 origin	https://github.com/fernandamurillo/sentiment-detector.git (fetch)
 origin	https://github.com/fernandamurillo/sentiment-detector.git (push)
-(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ c
+(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ cd[K[Kgo[Kit add .
+(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ git add .remote -v[5Ppushcommit -m "ready for production deployment"
+[main a933522] ready for production deployment
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ git push
+Username for 'https://github.com': fernanda m  murillo
+Password for 'https://fernandamurillo@github.com': 
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.12 KiB | 1.12 MiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/fernandamurillo/sentiment-detector.git
+   605c37d..a933522  main -> main
+(base) ]0;~/Fernanda/final_project/sentiment-detector/app[01;34m~/Fernanda/final_project/sentiment-detector/app[00m$ g
