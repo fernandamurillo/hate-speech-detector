@@ -1,0 +1,54 @@
+(base) ]0;~/Fernanda/hate-speech-detector/app/templates[01;34m~/Fernanda/hate-speech-detector/app/templates[00m$ main
+bash: main: command not found
+(base) ]0;~/Fernanda/hate-speech-detector/app/templates[01;34m~/Fernanda/hate-speech-detector/app/templates[00m$ main
+bash: main: command not found
+(base) ]0;~/Fernanda/hate-speech-detector/app/templates[01;34m~/Fernanda/hate-speech-detector/app/templates[00m$ main.py
+bash: main.py: command not found
+(base) ]0;~/Fernanda/hate-speech-detector/app/templates[01;34m~/Fernanda/hate-speech-detector/app/templates[00m$ python 3.py
+python: can't open file '/projects/250c93cf-311b-4af0-b0c9-a55b21af396c/Fernanda/hate-speech-detector/app/templates/3.py': [Errno 2] No such file or directory
+(base) ]0;~/Fernanda/hate-speech-detector/app/templates[01;34m~/Fernanda/hate-speech-detector/app/templates[00m$ python3.py[K[K[Kpy[K[K py
+python3: can't open file '/projects/250c93cf-311b-4af0-b0c9-a55b21af396c/Fernanda/hate-speech-detector/app/templates/py': [Errno 2] No such file or directory
+(base) ]0;~/Fernanda/hate-speech-detector/app/templates[01;34m~/Fernanda/hate-speech-detector/app/templates[00m$ python3 main.py
+python3: can't open file '/projects/250c93cf-311b-4af0-b0c9-a55b21af396c/Fernanda/hate-speech-detector/app/templates/main.py': [Errno 2] No such file or directory
+(base) ]0;~/Fernanda/hate-speech-detector/app/templates[01;34m~/Fernanda/hate-speech-detector/app/templates[00m$ python
+Python 3.9.5 (default, Jun  4 2021, 12:28:51) 
+[GCC 7.5.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> python [K3 main.py
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> main.py
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'main' is not defined
+>>> python [K[K[K[K[K[K[Kimport pandas as pd
+>>> main.py
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'main' is not defined
+>>> exit()
+(base) ]0;~/Fernanda/hate-speech-detector/app/templates[01;34m~/Fernanda/hate-speech-detector/app/templates[00m$ python3
+Python 3.9.5 (default, Jun  4 2021, 12:28:51) 
+[GCC 7.5.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> main.py
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'main' is not defined
+>>> exit()
+(base) ]0;~/Fernanda/hate-speech-detector/app/templates[01;34m~/Fernanda/hate-speech-detector/app/templates[00m$ cd
+(base) ]0;~[01;34m~[00m$ cd Fernanda
+(base) ]0;~/Fernanda[01;34m~/Fernanda[00m$ cd main.py[K[K[K[K[K[K[Khate ps[K[Kspeech dee[Kt[K[K[K[K[K[K[K[K[K[K[K-speech-detectro[K[Kor
+(base) ]0;~/Fernanda/hate-speech-detector[01;34m~/Fernanda/hate-speech-detector[00m$ cd main.py[K[K[K[K[K[K[Kapp
+(base) ]0;~/Fernanda/hate-speech-detector/app[01;34m~/Fernanda/hate-speech-detector/app[00m$ cd main.py
+bash: cd: main.py: Not a directory
+(base) ]0;~/Fernanda/hate-speech-detector/app[01;34m~/Fernanda/hate-speech-detector/app[00m$ python [K3 main.py
+/projects/250c93cf-311b-4af0-b0c9-a55b21af396c/miniconda3/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator LogisticRegression from version 0.23.2 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/projects/250c93cf-311b-4af0-b0c9-a55b21af396c/Fernanda/hate-speech-detector/app/main.py", line 52, in <module>
+    @cross_origin()
+NameError: name 'cross_origin' is not defined
+(base) ]0;~/Fernanda/hate-speech-detector/app[01;34m~/Fernanda/hate-speech-detector/app[00m$ 

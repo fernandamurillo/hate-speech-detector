@@ -1,7 +1,6 @@
 # import basics
 import os
 import pickle
-from text_cleaner import clean_text
 from flask_cors import cross_origin
 
 # preprocessing imports
@@ -20,8 +19,8 @@ Coding center code - comment out the following 4 lines of code when ready for pr
 '''
 # load up the model into memory
 # you will need to have all your trained model in the app/ directory.
-model = pickle.load(open("log_reg_model.sav", 'rb'))
-cv = pickle.load(open("countvec.pkl",'rb'))
+model = pickle.load(open("hate_log_reg_model.pkl", 'rb'))
+cv = pickle.load(open("hate_cv.pkl",'rb'))
 
 # preprocessing
 NON_ALPHANUM = re.compile(r'[\W]')
@@ -46,7 +45,7 @@ app = Flask(__name__)
 @app.route('/')
 # @app.route(base_url)
 def home():
-    return render_template('home.html', generated=None)
+    return render_template('Home.html', generated=None)
 
 @app.route('/results', methods=["GET","POST"])
 @cross_origin()
@@ -64,14 +63,17 @@ def results():
         
         output=""
         if prediction[0]==0:
-            output="Negative"
+            output="Hate Speech"
 
+        elif prediction[0]==1:
+            output="Offensive Language"
+            
         else:
-            output="Positive"
+            output = 'Neither'
+            
+        return render_template('Home.html',prediction_text=f'This is {output}')
 
-        return render_template('home.html',prediction_text=f'This is a {output} Review')
-
-    return render_template("home.html")
+    return render_template("Home.html")
 
 if __name__ == "__main__":
     '''
