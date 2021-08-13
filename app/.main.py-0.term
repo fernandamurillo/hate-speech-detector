@@ -2698,4 +2698,75 @@ origin	https://github.com/fernandamurillo/hate-speech-detector.git (fetch)
 origin	https://github.com/fernandamurillo/hate-speech-detector.git (push)
 upstream	https://github.com/fernandamurillo/sentiment-detector.git (fetch)
 upstream	https://github.com/fernandamurillo/sentiment-detector.git (push)
-(base) ]0;~/Fernanda/hate-speech-detector[01;34m~/Fernanda/hate-speech-detector[00m$ git a
+(base) ]0;~/Fernanda/hate-speech-detector[01;34m~/Fernanda/hate-speech-detector[00m$ git add .
+(base) ]0;~/Fernanda/hate-speech-detector[01;34m~/Fernanda/hate-speech-detector[00m$ git restore --staged app/hate_log_reg_model.pkl
+(base) ]0;~/Fernanda/hate-speech-detector[01;34m~/Fernanda/hate-speech-detector[00m$ git restore --staged app/hate_log_reg_model.pkl[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[Khate_cv.pkl
+(base) ]0;~/Fernanda/hate-speech-detector[01;34m~/Fernanda/hate-speech-detector[00m$ git commit -m "ready for production deployment"
+[main 325c634] ready for production deployment
+ 55 files changed, 6509 insertions(+), 3931 deletions(-)
+ rewrite app/.main.py-0.term (92%)
+ delete mode 100644 app/countvec.pkl
+ delete mode 100644 app/log_reg_model.sav
+ delete mode 100644 app/simple_site.py
+ rewrite app/static/Home.css (63%)
+ delete mode 100644 app/static/Results.css
+ delete mode 100644 app/static/Write-your-story-with-AI.css
+ delete mode 100644 app/static/duck.gif
+ delete mode 100644 app/static/duck2.gif
+ create mode 100644 app/static/images/20201014_010742_206.jpg
+ create mode 100644 app/static/images/Snapchat-633614830.jpg
+ create mode 100644 app/static/images/again.png
+ create mode 100644 app/static/images/ai_camp_logo.png
+ delete mode 100644 app/static/images/aicamplogo.webp
+ delete mode 100644 app/static/images/aicamplogo250.jpg
+ delete mode 100644 app/static/images/amazon.jpg
+ delete mode 100644 app/static/images/ari.jpg
+ delete mode 100644 app/static/images/asa1.jpg
+ delete mode 100644 app/static/images/asa3.jpg
+ create mode 100644 app/static/images/capture_post_no_hate_0.jpg
+ delete mode 100644 app/static/images/elves.png
+ delete mode 100644 app/static/images/evan.jpg
+ delete mode 100644 app/static/images/farzaan.png
+ rewrite app/static/images/fernanda.png (98%)
+ create mode 100644 app/static/images/hate-1200x600-1.jpg
+ create mode 100644 app/static/images/hate-spesech.png
+ delete mode 100644 app/static/images/logo.png
+ delete mode 100644 app/static/images/lotr.jpg
+ delete mode 100644 app/static/images/nikith.jpg
+ create mode 100644 app/static/images/ralph.png
+ delete mode 100644 app/static/images/rishabh.png
+ delete mode 100644 app/static/images/rishik.jpg
+ delete mode 100644 app/static/images/thumbs.png
+ create mode 100644 app/static/images/whatabeautifulannie.jpg
+ delete mode 100644 app/static/images1/aicamplogo250.jpg
+ delete mode 100644 app/static/images1/elves.png
+ delete mode 100644 app/static/images1/logo.png
+ delete mode 100644 app/static/images1/lotr.jpg
+ rename app/static/{jquery.js => jquery-1.9.1.min.js} (100%)
+ delete mode 100644 app/static/loader.gif
+ delete mode 100644 app/static/puppy.jpg
+ delete mode 100644 app/static/text_gen.js
+ create mode 100644 app/templates/.Home.html-0.term
+ create mode 100644 app/templates/.writer_home.html-0.term
+ create mode 100644 app/templates/Home.html
+ create mode 100644 app/templates/Home1.html
+ delete mode 100644 app/templates/Write-your-story-with-AI.html
+ delete mode 100644 app/templates/home.html
+ delete mode 100644 app/templates/index.html
+ delete mode 100644 app/templates/simple_index.html
+ delete mode 100644 app/templates/writer_home.html
+ delete mode 100644 app/text_cleaner.py
+(base) ]0;~/Fernanda/hate-speech-detector[01;34m~/Fernanda/hate-speech-detector[00m$ git push
+Username for 'https://github.com': fernandamurillo
+Password for 'https://fernandamurillo@github.com': 
+Enumerating objects: 39, done.
+Counting objects:   2% (1/39)Counting objects:   5% (2/39)Counting objects:   7% (3/39)Counting objects:  10% (4/39)Counting objects:  12% (5/39)Counting objects:  15% (6/39)Counting objects:  17% (7/39)Counting objects:  20% (8/39)Counting objects:  23% (9/39)Counting objects:  25% (10/39)Counting objects:  28% (11/39)Counting objects:  30% (12/39)Counting objects:  33% (13/39)Counting objects:  35% (14/39)Counting objects:  38% (15/39)Counting objects:  41% (16/39)Counting objects:  43% (17/39)Counting objects:  46% (18/39)Counting objects:  48% (19/39)Counting objects:  51% (20/39)Counting objects:  53% (21/39)Counting objects:  56% (22/39)Counting objects:  58% (23/39)Counting objects:  61% (24/39)Counting objects:  64% (25/39)Counting objects:  66% (26/39)Counting objects:  69% (27/39)Counting objects:  71% (28/39)Counting objects:  74% (29/39)Counting objects:  76% (30/39)Counting objects:  79% (31/39)Counting objects:  82% (32/39)Counting objects:  84% (33/39)Counting objects:  87% (34/39)Counting objects:  89% (35/39)Counting objects:  92% (36/39)Counting objects:  94% (37/39)Counting objects:  97% (38/39)Counting objects: 100% (39/39)Counting objects: 100% (39/39), done.
+Delta compression using up to 8 threads
+Compressing objects:   3% (1/27)Compressing objects:   7% (2/27)Compressing objects:  11% (3/27)Compressing objects:  14% (4/27)Compressing objects:  18% (5/27)Compressing objects:  22% (6/27)Compressing objects:  25% (7/27)Compressing objects:  29% (8/27)Compressing objects:  33% (9/27)Compressing objects:  37% (10/27)Compressing objects:  40% (11/27)Compressing objects:  44% (12/27)Compressing objects:  48% (13/27)Compressing objects:  51% (14/27)Compressing objects:  55% (15/27)Compressing objects:  59% (16/27)Compressing objects:  62% (17/27)Compressing objects:  66% (18/27)Compressing objects:  70% (19/27)Compressing objects:  74% (20/27)Compressing objects:  77% (21/27)Compressing objects:  81% (22/27)Compressing objects:  85% (23/27)Compressing objects:  88% (24/27)Compressing objects:  92% (25/27)Compressing objects:  96% (26/27)Compressing objects: 100% (27/27)Compressing objects: 100% (27/27), done.
+Writing objects:   3% (1/28)Writing objects:   7% (2/28)Writing objects:  10% (3/28)Writing objects:  14% (4/28)Writing objects:  17% (5/28)Writing objects:  21% (6/28)Writing objects:  25% (7/28)Writing objects:  28% (8/28)Writing objects:  32% (9/28)Writing objects:  35% (10/28)Writing objects:  39% (11/28)Writing objects:  42% (12/28)Writing objects:  46% (13/28)Writing objects:  50% (14/28)Writing objects:  53% (15/28)Writing objects:  57% (16/28)Writing objects:  60% (17/28)Writing objects:  64% (18/28)Writing objects:  67% (19/28)Writing objects:  71% (20/28)Writing objects:  75% (21/28)Writing objects:  78% (22/28)Writing objects:  82% (23/28)Writing objects:  85% (24/28)Writing objects:  89% (25/28)Writing objects:  92% (26/28)Writing objects:  96% (27/28)Writing objects: 100% (28/28)Writing objects: 100% (28/28), 1.70 MiB | 3.80 MiB/s, done.
+Total 28 (delta 8), reused 1 (delta 0)
+remote: Resolving deltas:   0% (0/8)[Kremote: Resolving deltas:  12% (1/8)[Kremote: Resolving deltas:  25% (2/8)[Kremote: Resolving deltas:  37% (3/8)[Kremote: Resolving deltas:  50% (4/8)[Kremote: Resolving deltas:  62% (5/8)[Kremote: Resolving deltas:  75% (6/8)[Kremote: Resolving deltas:  87% (7/8)[Kremote: Resolving deltas: 100% (8/8)[Kremote: Resolving deltas: 100% (8/8), completed with 6 local objects.[K
+To https://github.com/fernandamurillo/sentiment-detector.git
+   f4d40b8..325c634  main -> main
+(base) ]0;~/Fernanda/hate-speech-detector[01;34m~/Fernanda/hate-speech-detector[00m$ 
